@@ -2,27 +2,81 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | QR code component</title>
+  <title>Portfolio | QR Code</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    body {
+      background: #D5E1EF;
+    }
+    
+    .container {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .wrap {
+      display: flex;
+      flex-direction: column;
+      background: #fff;
+      color: #68778D;
+      font-family: 'Outfit', sans-serif;
+      font-size: 16px;
+      line-height: 140%;
+      text-align: center;
+      max-width: 350px; 
+      border-radius: 20px;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 25px;
+      padding: 20px 10px 40px 10px;
+      box-shadow: 0px 0px 20px 0px #00000033;
+    }
+    
+    .wrap img {
+      border-radius: 15px;
+      width: 95%;
+    }
+  
+  .text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+    
+    p {
+      color: #1F314F;
+      font-weight: bold;
+      font-size: 1.5em;
+      line-height: 140%;
+    }
+
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
+  <div class="container">
+<div class="wrap">
+  <img src="https://github.com/sola-fairy/qr-code/blob/main/images/image-qr-code.png?raw=true">
+  <div class="text">
+  <p>Improve your front-end skills by building projects</p>
 
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
+    Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</div>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="http://sola-fairy.garden">sola</a>.
+    </div></div>
 </body>
 </html>
