@@ -11,20 +11,17 @@
   <title>Portfolio | QR Code</title>
 
   <style>
-    body {
+   body {
       background: #D5E1EF;
-    }
-    
-    .container {
-      width: 100vw;
-      height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      width: 100vw;
+      height: 100vh;
     }
-
-    .wrap {
+    
+    main {
       display: flex;
       flex-direction: column;
       background: #fff;
@@ -42,41 +39,41 @@
       box-shadow: 0px 0px 20px 0px #00000033;
     }
     
-    .wrap img {
+    main img {
       border-radius: 15px;
       width: 95%;
     }
   
-  .text {
+  section {
     display: flex;
     flex-direction: column;
     padding-left: 30px;
     padding-right: 30px;
   }
     
-    p {
+    h1 {
       color: #1F314F;
       font-weight: bold;
       font-size: 1.5em;
       line-height: 140%;
     }
 
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    footer { font-size: 11px; text-align: center; }
+    footer a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-  <div class="container">
-<div class="wrap">
+<main>
   <img src="https://github.com/sola-fairy/qr-code/blob/main/images/image-qr-code.png?raw=true">
-  <div class="text">
-  <p>Improve your front-end skills by building projects</p>
+  <section>
+  <h1>Improve your front-end skills by building projects</h1>
 
-    Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</div>
-  </div>
-  <div class="attribution">
+    Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</section>
+  </main>
+    
+  <footer>
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="http://sola-fairy.garden">sola</a>.
-    </div></div>
+      </footer>
 </body>
 </html>

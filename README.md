@@ -12,11 +12,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
-Here
+This was a pretty simple challenge, but I'm pleased with how polished something can look with just a few style elements.
 
 ### Screenshot
 
@@ -33,22 +32,8 @@ Here
 
 * Use semi-transparent blurry box shadow to give containers depth
 * vw and vh units are percentages (100vw is 100% of the viewport width)
-* Center vertically and horizontally by nesting in a flexbox the size of the viewport
-
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+* Center vertically and horizontally by giving body element ```display: flex;``` and defining size with vw & vh
+* Use landmarks like ```<main>```, ```<section>```, and ```<footer>``` to improve accessibility
 
 ### Continued development
 
@@ -64,7 +49,3 @@ What I want to learn next.
 - Website - [sola](http://sola-fairy.garden)
 - Frontend Mentor - [@sola](https://www.frontendmentor.io/profile/sola)
 - CodePen - [@sola-fairy](codepen.io/sola-fairy)
-
-## Acknowledgments
-
-I would like to thank myself for being awesome.
