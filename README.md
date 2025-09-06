@@ -23,8 +23,8 @@ This was a pretty simple challenge, but I'm pleased with how polished something 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/qr-code-using-css-flexbox-fGQX9xHg6O)
+- Live Site URL: [Sola-Fairy's QR Code](https://sola-fairy.github.io/qr-code/)
 
 ## My process
 
@@ -37,7 +37,7 @@ This was a pretty simple challenge, but I'm pleased with how polished something 
 
 ### Continued development
 
-What I want to learn next.
+Oh, you know. Everything.
 
 ### Useful resources
 
