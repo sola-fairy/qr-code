@@ -20,7 +20,7 @@ Here
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](images\Screenshot 2025-09-05 200312.png)
 
 Here
 
@@ -33,7 +33,10 @@ Here
 
 ### What I learned
 
-I do plan to fill this out.
+* Use semi-transparent blurry box shadow to give containers depth
+* vw and vh units are percentages (100vw is 100% of the viewport width)
+* Center vertically and horizontally by nesting in a flexbox the size of the viewport
+
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
@@ -55,10 +58,8 @@ What I want to learn next.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-Here is a list of useful resources.
+- [Google Fonts](https://fonts.google.com) - This is where I downloaded Outfit, the font used in the style guide.
+- [Mozilla MDN](https://developer.mozilla.org/en-US/docs/Web/CSS) - A great resource for CSS guides.
 
 ## Author
 
