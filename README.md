@@ -20,9 +20,7 @@ Here
 
 ### Screenshot
 
-![](images\Screenshot 2025-09-05 200312.png)
-
-Here
+![QR code screenshot](https://raw.githubusercontent.com/sola-fairy/qr-code/refs/heads/main/images/Screenshot%202025-09-05%20200312.png "QR Code Screenshot")
 
 ### Links
 
